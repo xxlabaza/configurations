@@ -1,0 +1,13 @@
+
+server:
+  port: 9002
+
+security.basic.enabled: false
+
+zuul:
+  ignoredServices: '*'
+  prefix: /api
+  routes:
+    popa:   /popa/**
+
+ribbon.EnableZoneAffinity: true

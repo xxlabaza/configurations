@@ -1,0 +1,9 @@
+
+server:
+  port: 9004
+
+security.basic.enabled: false
+
+turbine:
+  appConfig: zuul
+  clusterNameExpression: new String("default")
