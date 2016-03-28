@@ -20,7 +20,7 @@ class MyFilter extends ZuulFilter {
         RequestContext ctx = RequestContext.getCurrentContext()
         HttpServletRequest request = ctx.getRequest()
 
-        log.info(String.format('\n\n%s request to %s\n', request.method, request.requestURL.toString()))
+        log.info(String.format('\n\nPOPA: %s request to %s\n', request.method, request.requestURL.toString()))
 
         return Boolean.TRUE
     }

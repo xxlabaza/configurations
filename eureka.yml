@@ -8,7 +8,10 @@ security:
     password: ${eureka.password}
 
 eureka:
+  instance:
+    waitTimeInMsWhenSyncEmpty: 0
   client:
+    preferSameZone:     false
     fetchRegistry:      false
     registerWithEureka: false
 
