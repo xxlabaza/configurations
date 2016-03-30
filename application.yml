@@ -41,3 +41,5 @@ eureka:
       defaultZone:  http://${eureka.name}:${eureka.password}@${eureka.zone1.host:localhost}:9001/eureka/
       zone1:        http://${eureka.name}:${eureka.password}@${eureka.zone1.host:localhost}:9001/eureka/
       zone2:        http://${eureka.name}:${eureka.password}@${eureka.zone2.host:localhost}:9001/eureka/
+
+ribbon.EnableZoneAffinity: true

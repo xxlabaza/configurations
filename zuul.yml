@@ -8,6 +8,4 @@ zuul:
   ignoredServices: '*'
   prefix: /api
   routes:
-    popa:   /popa/**
-
-ribbon.EnableZoneAffinity: true
+    dummy:   /dummy/**
