@@ -7,6 +7,7 @@ security.basic.enabled: false
 ---
 spring:
   profiles: zone1
+
 eureka:
   instance:
     metadatMap:
@@ -15,6 +16,7 @@ eureka:
 ---
 spring:
   profiles: zone2
+
 eureka:
   instance:
     metadatMap:
