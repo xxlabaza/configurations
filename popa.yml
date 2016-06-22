@@ -11,7 +11,8 @@ spring:
 eureka:
   instance:
     metadataMap:
-      color: green
+      container:
+        color: green
 
 ---
 spring:
@@ -20,4 +21,5 @@ spring:
 eureka:
   instance:
     metadataMap:
-      color: blue
+      container:
+        color: blue
