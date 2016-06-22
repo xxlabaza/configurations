@@ -1,0 +1,21 @@
+
+server:
+  port: 9090
+
+security.basic.enabled: false
+
+---
+spring:
+  profiles: zone1
+eureka:
+  instance:
+    metadatMap:
+      color: green
+
+---
+spring:
+  profiles: zone2
+eureka:
+  instance:
+    metadatMap:
+      color: blue
