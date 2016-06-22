@@ -9,3 +9,6 @@ zuul:
   prefix: /api
   routes:
     dummy:   /dummy/**
+
+popa:
+  dummy: green
