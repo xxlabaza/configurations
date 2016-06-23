@@ -1,6 +1,6 @@
 
 server:
-  port: 9091
+  port: 9093
 
 security.basic.enabled: false
 
@@ -12,7 +12,7 @@ eureka:
   instance:
     metadataMap:
       container:
-        color: green
+        color: blue
 
 ---
 spring:
@@ -27,4 +27,4 @@ eureka:
     status: OUT_OF_SERVICE
     metadataMap:
       container:
-        color: blue
+        color: green
