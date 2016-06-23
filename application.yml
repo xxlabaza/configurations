@@ -36,6 +36,7 @@ eureka:
     metadataMap:
       zone: ${spring.profiles.active:none} # active profile is zone name
   client:
+    healthcheck.enabled: true
     region: my_region
     availabilityZones:
       my_region: ${eureka.instance.metadataMap.zone},zone1,zone2 # list of available zones
