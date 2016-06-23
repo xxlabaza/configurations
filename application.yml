@@ -36,6 +36,7 @@ eureka:
     metadataMap:
       zone: ${spring.profiles.active:none} # active profile is zone name
   client:
+    shouldFilterOnlyUpInstances: false
     healthcheck.enabled: true
     region: my_region
     availabilityZones:
