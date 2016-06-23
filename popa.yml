@@ -20,6 +20,7 @@ spring:
 
 eureka:
   instance:
+    status: OUT_OF_SERVICE
     metadataMap:
       container:
         color: blue
