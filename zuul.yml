@@ -5,6 +5,8 @@ server:
 security.basic.enabled: false
 
 zuul:
+  request:
+    debug: true
   ignoredServices: '*'
   prefix: /api
   routes:
