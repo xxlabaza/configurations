@@ -18,7 +18,7 @@ eureka:
 app.eureka:
     activeColors:
       popa:
-        blue: false
+        blue: true
         green: true
 
 ---
