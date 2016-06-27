@@ -15,6 +15,15 @@ eureka:
     fetchRegistry:      false
     registerWithEureka: false
 
+app.eureka:
+  activeСolors:
+    account-service-v1:
+      blue: true
+      green: false
+    catalog-service-v1:
+      blue: true
+      green: true
+
 ---
 spring:
   profiles: zone1
