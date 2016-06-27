@@ -15,9 +15,8 @@ eureka:
     fetchRegistry:      false
     registerWithEureka: false
 
-app:
-  eureka:
-    activeСolors:
+app.eureka:
+    activeColors:
       popa1:
         blue: true
         green: false
