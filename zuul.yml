@@ -5,6 +5,7 @@ server:
 security.basic.enabled: false
 
 zuul:
+  sensitiveHeaders: Cache-Control
   request:
     debug: true
   ignoredServices: '*'
