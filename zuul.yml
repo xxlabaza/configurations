@@ -11,7 +11,9 @@ zuul:
   ignoredServices: '*'
   prefix: /api
   routes:
-    popa:   /popa/**
+    popa:
+      path: /popa/**
+      sensitiveHeaders: Cache-Control
 
 popa:
   dummy: green
