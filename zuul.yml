@@ -15,3 +15,7 @@ zuul:
 
 popa:
   dummy: green
+
+app:
+  zuul:
+    headersAllowToPassThrough: Pragma
