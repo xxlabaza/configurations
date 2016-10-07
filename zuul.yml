@@ -18,4 +18,4 @@ popa:
 
 app:
   zuul:
-    headersAllowToPassThrough: Pragma
+    headersAllowToPassThrough: Pragma, Cache-Control
