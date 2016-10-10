@@ -4,6 +4,12 @@ server:
 
 security.basic.enabled: false
 
+eureka:
+  instance:
+    metadataMap:
+      container:
+        color: blue
+
 ---
 spring:
   profiles: zone1
