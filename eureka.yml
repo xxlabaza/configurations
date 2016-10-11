@@ -15,11 +15,11 @@ eureka:
     fetchRegistry:      false
     registerWithEureka: false
 
-app.eureka:
-    activeColors:
-      popa:
-        blue: true
-        green: false
+# app.eureka:
+#     activeColors:
+#       popa:
+#         blue: true
+#         green: false
 
 ---
 spring:
