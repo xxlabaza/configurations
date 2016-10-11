@@ -30,7 +30,7 @@ server:
 
 eureka:
   instance:
-    status: OUT_OF_SERVICE
+    # status: OUT_OF_SERVICE
     metadataMap:
       container:
         color: green
