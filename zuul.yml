@@ -13,9 +13,6 @@ zuul:
     popa:
       path: /popa/**
 
-popa:
-  dummy: green
-
 app:
   zuul:
     headersAllowToPassThrough: Pragma, Cache-Control
