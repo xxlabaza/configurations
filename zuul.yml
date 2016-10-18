@@ -16,7 +16,7 @@ zuul:
 app:
   zuul:
     headersAllowToPassThrough: Pragma, Cache-Control
-    traffic-rules:
-      popa:
-        blue: 80
-        green: 20
+    # traffic-rules:
+    #   popa:
+    #     blue: 80
+    #     green: 20
