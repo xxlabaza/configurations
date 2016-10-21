@@ -10,6 +10,12 @@ eureka:
       container:
         color: blue
 
+app:
+  list:
+    - uno
+    - dos
+    - tres
+
 ---
 spring:
   profiles: zone1
