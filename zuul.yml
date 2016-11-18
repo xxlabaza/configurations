@@ -10,7 +10,10 @@ zuul:
   ignoredServices: '*'
   prefix: /api
   routes:
-    popa: /popa/**
+    some:
+      path: /popa/**
+      serviceId: popa
+    # popa: /popa/**
 
 app:
   zuul:
