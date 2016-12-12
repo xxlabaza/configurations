@@ -24,7 +24,7 @@ eureka:
   instance:
     metadataMap:
       container:
-        color: blue
+        color: green
 
 ---
 spring:
@@ -39,4 +39,4 @@ eureka:
     # status: OUT_OF_SERVICE
     metadataMap:
       container:
-        color: green
+        color: blue
