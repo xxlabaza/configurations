@@ -17,7 +17,7 @@ eureka:
 
 app.eureka:
     activeColors:
-      popa:  { blue: false, green: true }
+      popa:  { blue: true, green: false }
 
 ---
 spring:
