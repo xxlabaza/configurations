@@ -24,5 +24,5 @@ app:
     headersAllowToPassThrough: Pragma, Cache-Control
     traffic-rules:
       popa:
-        blue: 20
-        green: 80
+        blue: 30
+        green: 70
