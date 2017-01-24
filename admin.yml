@@ -23,8 +23,8 @@ spring:
   boot:
     admin:
       discovery:
-        converter.management-context-path: /admin
+        # converter.management-context-path: /admin
         management:
           context-path: /admin
-      routes:
-        endpoints: env,metrics,trace,dump,info,configprops,trace,logfile,refresh,heapdump,hystrix.stream
+      # routes:
+      #   endpoints: env,metrics,trace,dump,info,configprops,trace,logfile,refresh,heapdump,hystrix.stream
