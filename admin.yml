@@ -28,6 +28,9 @@ spring:
     admin:
       username: "${security.user.name}"       #These two are needed so that the client
       password: "${security.user.password}"   #can register at the protected server api
+      auth:
+        username: "${security.user.name}"       #These two are needed so that the client
+        password: "${security.user.password}"   #can register at the protected server api
       discovery.converter.management-context-path: /admin
       # discovery:
         # converter.management-context-path: /admin
@@ -35,3 +38,6 @@ spring:
           # context-path: /admin
       # routes:
       #   endpoints: env,metrics,trace,dump,info,configprops,trace,logfile,refresh,heapdump,hystrix.stream
+logging:
+  level:
+    org.springframework.security: INFO
