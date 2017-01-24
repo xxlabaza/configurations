@@ -2,13 +2,13 @@
 server:
   port: 9003
 
-security:
-  user:
-    name:      admin
-    #   The password is encrypted by this:
-    #   http://cloud.spring.io/spring-cloud-config/spring-cloud-config.html#_encryption_and_decryption
-    #   the password is 'admin'
-    password: admin
+# security:
+#   user:
+#     name:      admin
+#     #   The password is encrypted by this:
+#     #   http://cloud.spring.io/spring-cloud-config/spring-cloud-config.html#_encryption_and_decryption
+#     #   the password is 'admin'
+#     password: admin
 
 # spring:
 #   boot:
