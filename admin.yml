@@ -7,10 +7,10 @@ server:
 
 security:
   user:
-    name:      admin
-#     #   The password is encrypted by this:
-#     #   http://cloud.spring.io/spring-cloud-config/spring-cloud-config.html#_encryption_and_decryption
-#     #   the password is 'admin'
+    name: admin
+    #   The password is encrypted by this:
+    #   http://cloud.spring.io/spring-cloud-config/spring-cloud-config.html#_encryption_and_decryption
+    #   the password is 'admin'
     password: admin
     # password: 'AQALcUQj7dUni8g5o5O7IJTCU5K9CkPMgBHggwaELTOSSNpB7ibbyWr4tUITtmo6rkPAzLtX+oZ4kPd7yI9Zh2eXZI+fSxEYtu+f4noE7W/fGXOv4gBd//0/gfrWS8lmsd0vd6nv6lTkHsraPBBFbZFxV7B4fv5/03WNow55tEzckk3vrCOGJ8kvCYip//vgrd9DAiipXwS/QVrwcRx06vjbYOk0bmGPnHxkRb/ylqubi8dx0VEKU7Nvlrmc4hXzIdTfEuIFekSMw1pXTTvAA/pfvA+86kxVRnxqY7k9mzeGduUIQoqNoIeiqM2A4qmK90hW7QTg9gBBB8kvVqjese1xZcSyZMR45YOv4ird54hEVOCXu++t3gKUt54Nu4rrupE='
 
@@ -26,8 +26,8 @@ security:
 spring:
   boot:
     admin:
-      # username: popa
-      # password: popa
+      username: "${security.user.name}"       #These two are needed so that the client
+      password: "${security.user.password}"   #can register at the protected server api
       discovery.converter.management-context-path: /admin
       # discovery:
         # converter.management-context-path: /admin
