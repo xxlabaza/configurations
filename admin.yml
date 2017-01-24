@@ -22,7 +22,7 @@ server:
 spring:
   boot:
     admin:
-      context-path: /admin
+      discovery.converter.management-context-path: /admin
       # discovery:
         # converter.management-context-path: /admin
         # management:
