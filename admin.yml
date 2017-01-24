@@ -2,8 +2,8 @@
 server:
   port: 9003
 
-security:
-  basic.enabled: false
+# security:
+#   basic.enabled: false
 
 security:
   user:
