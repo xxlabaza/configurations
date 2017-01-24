@@ -25,6 +25,8 @@ server:
 spring:
   boot:
     admin:
+      username: popa
+      password: popa
       discovery.converter.management-context-path: /admin
       # discovery:
         # converter.management-context-path: /admin
