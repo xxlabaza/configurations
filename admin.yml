@@ -3,6 +3,9 @@ server:
   port: 9003
 
 # security:
+#   basic.enabled: false
+
+# security:
 #   user:
 #     name:      admin
 #     #   The password is encrypted by this:
