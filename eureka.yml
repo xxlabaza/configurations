@@ -15,9 +15,9 @@ eureka:
     fetchRegistry:      false
     registerWithEureka: false
 
-app.eureka:
-    activeColors:
-      popa:  { blue: false, green: true }
+# app.eureka:
+#     activeColors:
+#       popa:  { blue: false, green: true }
 
 ---
 spring:
