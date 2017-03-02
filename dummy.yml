@@ -4,6 +4,12 @@ server:
 
 security.basic.enabled: false
 
+eureka:
+  instance:
+    metadataMap:
+      container:
+        color: blue
+
 ---
 spring:
   profiles: zone1
@@ -11,6 +17,9 @@ eureka:
   instance:
     metadatMap:
       color: green
+
+server:
+  port: 9091
 
 ---
 spring:

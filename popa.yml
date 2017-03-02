@@ -30,7 +30,6 @@ eureka:
 spring:
   profiles: zone2
 
-
 server:
   port: 9093
 
