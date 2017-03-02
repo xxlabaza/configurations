@@ -13,10 +13,12 @@ eureka:
 ---
 spring:
   profiles: zone1
+
 eureka:
   instance:
-    metadatMap:
-      color: green
+    metadataMap:
+      container:
+        color: green
 
 server:
   port: 9091
@@ -24,7 +26,9 @@ server:
 ---
 spring:
   profiles: zone2
+
 eureka:
   instance:
-    metadatMap:
-      color: blue
+    metadataMap:
+      container:
+        color: blue
