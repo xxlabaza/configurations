@@ -14,10 +14,11 @@ zuul:
       path: /apps/**
       stripPrefix: true
       serviceId: configserver
-    some:
-      path: /popa/**
-      serviceId: popa
-    # popa: /popa/**
+    # some:
+    #   path: /popa/**
+    #   serviceId: popa
+    popa: /popa/**
+    dummy: /dummy/**
 
 app:
   zuul:
