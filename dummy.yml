@@ -1,6 +1,6 @@
 
 server:
-  port: 9090
+  port: 9091
 
 security.basic.enabled: false
 
@@ -8,7 +8,7 @@ eureka:
   instance:
     metadataMap:
       container:
-        color: blue
+        color: green
 
 ---
 spring:
@@ -18,10 +18,10 @@ eureka:
   instance:
     metadataMap:
       container:
-        color: green
+        color: blue
 
 server:
-  port: 9091
+  port: 9090
 
 ---
 spring:
