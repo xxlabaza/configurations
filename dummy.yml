@@ -7,6 +7,7 @@ security.basic.enabled: false
 eureka:
   instance:
     metadataMap:
+      zone: zone1
       container:
         color: blue
 
