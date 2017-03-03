@@ -27,3 +27,6 @@ app:
       popa:
         blue: 47
         green: 53
+      dummy:
+        blue: 47
+        green: 53
