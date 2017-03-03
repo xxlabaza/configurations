@@ -8,7 +8,7 @@ eureka:
   instance:
     metadataMap:
       container:
-        color: green
+        color: blue
 
 ---
 spring:
@@ -18,7 +18,7 @@ eureka:
   instance:
     metadataMap:
       container:
-        color: blue
+        color: green
 
 server:
   port: 9090
