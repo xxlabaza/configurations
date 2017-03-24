@@ -23,21 +23,30 @@ zuul:
 
 app:
   zuul:
-    yoda:
-      cookieName: 'Yoda-SID'
-      appPrefix: 'yoda'
-    # headersAllowToPassThrough: Pragma, Cache-Control
-    traffic-rules:
-      popa:
-        blue: 47
-        green: 53
-      dummy:
-        blue: 47
-        green: 53
     versionBalancing:
-      cookie-name: SomeName
-      headerName: X-Target-Version
+      headerName: X-Metadata-Service-Version
       rules:
         popa:
           v1: 30
           v2: 70
+
+
+
+# my_account.yml
+# ---
+# app:
+#   metadata:
+#     balancing:
+#       catalog: v1
+#       store-service: v3
+
+# ---
+# spring:
+#   profile: new_version
+# app:
+#   metadata:
+#     balancing:
+#       catalog: v2
+#       store-service: v4
+
+
