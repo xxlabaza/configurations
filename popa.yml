@@ -1,13 +1,13 @@
 
 server:
-  port: 9093
+  port: 9092
 
 security.basic.enabled: false
 
 eureka:
   instance:
     metadataMap:
-      version: v2
+      version: v1
       container:
         color: blue
 
@@ -22,12 +22,12 @@ spring:
   profiles: zone1
 
 server:
-  port: 9092
+  port: 9093
 
 eureka:
   instance:
     metadataMap:
-      version: v1
+      version: v2
       container:
         color: green
 
