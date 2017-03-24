@@ -21,6 +21,9 @@ app:
 spring:
   profiles: zone1
 
+server:
+  port: 9093
+
 eureka:
   instance:
     metadataMap:
@@ -33,11 +36,12 @@ spring:
   profiles: zone2
 
 server:
-  port: 9093
+  port: 9094
 
 eureka:
   instance:
     # status: OUT_OF_SERVICE
     metadataMap:
+      version: v3
       container:
         color: blue
