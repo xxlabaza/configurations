@@ -38,6 +38,6 @@ app:
       cookie-name: SomeName
       headerName: X-Target-Version
       rules:
-        popa:
+        POPA:
           v1: 30
           v2: 70
