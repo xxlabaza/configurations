@@ -26,7 +26,7 @@ app:
     versionBalancing:
       headerName: X-Metadata-Service-Version
       rules:
-        popa:
+        account-api-v4:
           v1: 30
           v2: 70
 
