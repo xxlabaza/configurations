@@ -37,7 +37,7 @@ app:
     versionBalancing:
       cookie-name: SomeName
       headerName: X-Target-Version
-      traffic-rules:
+      rules:
         popa:
           v1: 30
           v2: 70
