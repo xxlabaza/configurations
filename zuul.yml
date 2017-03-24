@@ -27,8 +27,9 @@ app:
       headerName: X-Metadata-Service-Version
       rules:
         popa:
-          v1: 0
-          v2: 100
+          v1: 20
+          v2: 50
+          v3: 30
 
 
 
