@@ -20,9 +20,13 @@ zuul:
     popa: /popa/**
     dummy: /dummy/**
 
+
 app:
   zuul:
-    headersAllowToPassThrough: Pragma, Cache-Control
+    yoda:
+      cookieName: 'Yoda-SID'
+      appPrefix: 'yoda'
+    # headersAllowToPassThrough: Pragma, Cache-Control
     traffic-rules:
       popa:
         blue: 47
@@ -30,3 +34,10 @@ app:
       dummy:
         blue: 47
         green: 53
+    versionBalancing:
+      cookie-name: SomeName
+      headerName: X-Target-Version
+      traffic-rules:
+        popa:
+          v1: 30
+          v2: 70
