@@ -19,7 +19,7 @@ zuul:
     #   path: /popa/**
     #   serviceId: popa
     popa_1:
-      path: /*/popa/**
+      path: /api/*/popa/**
       stripPrefix: false
       serviceId: popa
     popa_2:
