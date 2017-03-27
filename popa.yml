@@ -7,7 +7,7 @@ security.basic.enabled: false
 eureka:
   instance:
     metadataMap:
-      version: v1
+      version: '1'
       container:
         color: blue
 
@@ -27,7 +27,7 @@ server:
 eureka:
   instance:
     metadataMap:
-      version: v1
+      version: '2'
       container:
         color: green
 
@@ -42,6 +42,6 @@ eureka:
   instance:
     # status: OUT_OF_SERVICE
     metadataMap:
-      version: v3
+      version: '3'
       container:
         color: blue
