@@ -8,7 +8,8 @@ zuul:
   request:
     debug: true
   ignoredServices: '*'
-  prefix: /api
+  addPrefix: /api
+  # prefix: /api
   routes:
     service_health:
       path: /apps/**
@@ -17,7 +18,15 @@ zuul:
     # some:
     #   path: /popa/**
     #   serviceId: popa
-    popa: /*/popa/**
+    popa_1:
+      path: /*/popa/**
+      stripPrefix: false
+      serviceId: popa
+    popa_2:
+      path: /popa/**
+      stripPrefix: false
+      serviceId: popa
+    # popa: /*/popa/**
     dummy: /dummy/**
 
 
