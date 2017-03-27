@@ -22,12 +22,12 @@ spring:
   profiles: zone1
 
 server:
-  port: 9092
+  port: 9093
 
 eureka:
   instance:
     metadataMap:
-      version: '2'
+      version: '1'
       container:
         color: green
 
