@@ -36,9 +36,9 @@ app:
       headerName: X-Metadata-Service-Version
       rules:
         popa:
-          v1: 20
-          v2: 50
-          v3: 30
+          "[1]": 20
+          "[2]": 50
+          "[3]": 30
   # zuul:
   #   versionBalancing:
   #     headerName: X-Metadata-Service-Version
