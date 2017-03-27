@@ -17,7 +17,7 @@ zuul:
     # some:
     #   path: /popa/**
     #   serviceId: popa
-    popa: /popa/**
+    popa: /*/popa/**
     dummy: /dummy/**
 
 
