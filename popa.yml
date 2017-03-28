@@ -7,7 +7,7 @@ security.basic.enabled: false
 eureka:
   instance:
     metadataMap:
-      version: '1'
+      # version: '1'
       container:
         color: blue
 
