@@ -8,8 +8,8 @@ zuul:
   request:
     debug: true
   ignoredServices: '*'
-  addPrefix: /api
-  # prefix: /api
+  # addPrefix: /api
+  prefix: /api
   routes:
     service_health:
       path: /apps/**
@@ -19,7 +19,7 @@ zuul:
     #   path: /popa/**
     #   serviceId: popa
     popa_1:
-      path: /api/*/popa/**
+      path: /v1/popa/**
       stripPrefix: false
       serviceId: popa
     popa_2:
@@ -37,8 +37,8 @@ app:
       rules:
         popa:
           "[1]": 20
-          "[2]": 50
-          "[3]": 30
+          "[2.0.0]": 50
+          "[2.0.1]": 30
   # zuul:
   #   versionBalancing:
   #     headerName: X-Metadata-Service-Version
